@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "mocha /specs/specs.js",
+    "test": "mocha src/specs/tests.js --exit",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Adams",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",
